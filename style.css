@@ -702,6 +702,20 @@ a:hover {
   font-weight: 600;
   color: var(--text-main);
 }
+.fact-list-bullets {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.fact-list-bullets li {
+    margin-bottom: 0.35rem;
+    color: var(--text-main);
+    font-weight: 500;
+}
+
+.fact-list-bullets li:last-child {
+    margin-bottom: 0;
+}
 
 /* --- Education Section --- */
 .education-container {
