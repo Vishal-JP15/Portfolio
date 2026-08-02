@@ -648,6 +648,10 @@ a:hover {
   box-shadow: var(--shadow-md);
   height: fit-content;
 }
+.bio-text a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
 .fact-title {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
@@ -680,6 +684,7 @@ a:hover {
   letter-spacing: 0.05em;
   color: var(--text-light);
 }
+
 .fact-val {
   font-size: 0.95rem;
   font-weight: 600;
