@@ -691,10 +691,11 @@ a:hover {
   flex-direction: column;
 }
 .fact-label {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--text-light);
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--primary);
+    font-weight: 700;
 }
 
 .fact-val {
